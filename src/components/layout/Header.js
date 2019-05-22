@@ -2,15 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
-    // const __appname__ = "react-crash-todo";
+  // const __appname__ = "react-crash-todo";
   return (
     <header style={headerStyle}>
       <h1>タスクリスト</h1>
-      <Link style={linkStyle} to="react-crash-todo/">
+      <Link style={linkStyle} to="/">
         Home
       </Link>
       |
-      <Link style={linkStyle} to="react-crash-todo/about">
+      <Link style={linkStyle} to="/about">
         About
       </Link>
     </header>
